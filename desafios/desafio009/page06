@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #backButton {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <iframe width="560" height="315" src="URL_DO_VIDEO_DO_YOUTUBE_EMBED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <button id="backButton" onclick="window.location.href='URL_DA_PAGINA_PRINCIPAL'">Voltar à página principal</button>
+</body>
+</html>
